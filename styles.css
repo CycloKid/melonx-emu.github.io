@@ -1,0 +1,149 @@
+body {
+    font-family: Inter, sans-serif;
+    text-align: center;
+    background-color: #e9e2fb;
+    margin: 0;
+    padding: 0;
+    color: rgba(37, 37, 37, 0.925); /* Adjust text color for contrast */
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5); /* Add transparency to make the text more readable */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+h1 {
+  color: #4169e1;
+  margin: 0;
+}
+
+.hero-section {
+  padding: 50px 20px;
+ 
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: auto;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Adjust the spacing between buttons */
+  flex-wrap: wrap; /* Allow buttons to wrap to the next line */
+}
+
+.button-group a {
+  flex: 1;
+  max-width: 200px; /* Set a maximum width for the buttons */
+  text-align: center; /* Center the text inside the buttons */
+}
+
+.features-section, .about-section {
+  margin-top: 15vh; /* Push the section below the viewport height */
+  padding: 50px 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.feature-grid {
+  display: flex; /* Activate Flexbox */
+    justify-content: center; /* Center horizontally */
+    gap: 20px; /* Adjust the spacing between boxes */
+    flex-wrap: wrap; /* Allows the boxes to wrap to the next line if needed */
+     flex: 1 1 250px; /* Allow flex items to grow and shrink, with a base size of 250px */
+  
+}
+
+.feature-item {
+    background-color: rgba(204, 181, 245, 0.6); /* Semi-transparent background */
+    border-radius: 15px; /* Round the corners for aesthetics */
+    padding: 20px; /* Adds space inside the element */
+    margin: 15px 0; /* Space between the feature boxes */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    
+}
+
+.button:hover {
+ opacity: 0.8;
+}
+
+.giteabutton {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+      background: #609926;
+    transition: background-color 0.3s ease;
+    
+  
+}
+
+.downloadbutton {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    background: #e88d30;
+    transition: background-color 0.3s ease;
+}
+
+.redbutton {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    background: #de0a26;
+    transition: background-color 0.3s ease;
+    }
+
+.purple {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    background: #7289da;
+    transition: background-color 0.3s ease;
+    }
+
+  
+  .usualbutton:hover,
+  .redbutton:hover,
+  .purple:hover,
+  .feature-item:hover {
+    transform: scale(1.05); /* Increase size by 5% */
+    transition: transform 0.2s; /* Smooth transition */
+  }
+
+  .usualbutton,
+  .redbutton,
+  .purple, 
+  .feature-item {
+    transition: transform 0.2s; /* Smooth transition back */
+  }
+
+  h1, h2, h3, p, a, .button-group a { 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add drop shadow to text */
+} 
