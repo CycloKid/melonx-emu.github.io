@@ -128,17 +128,22 @@ h2 {
     transition: background-color 0.3s ease;
     }
 
-  
-  .usualbutton:hover,
-  .redbutton:hover,
+.enlargeimganim {
+
+}
+
+  .giteabutton:hover,
+  .downloadbutton:hover,
+  .enlargeimganim:hover,
   .purple:hover,
   .feature-item:hover {
     transform: scale(1.05); /* Increase size by 5% */
     transition: transform 0.2s; /* Smooth transition */
   }
 
-  .usualbutton,
-  .redbutton,
+  .giteabutton,
+  .downloadbutton,
+  .enlargeimganim,
   .purple, 
   .feature-item {
     transition: transform 0.2s; /* Smooth transition back */
